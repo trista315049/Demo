@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.e("MainActivity","push----------");
+                Log.e("MainActivity","push----trista------");
+
                 startActivity(new Intent(MainActivity.this, AnimationActivity.class));
             }
         });
