@@ -3,6 +3,7 @@ package com.wka.viewdemo;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 
 import com.wka.viewdemo.weight.BaseDiagramView;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         myDiagram.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Log.e("MainActivity","push----------");
                 startActivity(new Intent(MainActivity.this, AnimationActivity.class));
             }
         });
