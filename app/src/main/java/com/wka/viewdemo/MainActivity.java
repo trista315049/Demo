@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Log.e("MainActivity","push----------");
                 Log.e("MainActivity","push----trista------");
-                Log.e("MainActivity","push----trista1------");
+                Log.e("MainActivity","push----trista1-------");
 
                 startActivity(new Intent(MainActivity.this, AnimationActivity.class));
             }
