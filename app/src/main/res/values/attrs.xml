@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--(1) boolean表示布尔值，调用如 xx:attr1="false"-->
+    <!--(2) integer表示整型，调用如 xx:attr1="1"-->
+    <!--(3) dimension表示尺寸值，调用如 xx:attr1="42dp"-->
+    <!--(4) float表示浮点型，调用如 xx:attr1="0.7"-->
+    <!--(5) color表示颜色值，调用如 xx:attr1="#00FF00"-->
+    <!--(6) string表示字符串，调用如 xx:attr1="#adbddd"-->
+    <!--(7) reference表示参考某一资源id，调用如 xx:attr1 = "@drawable/图片ID"-->
+    <!--(8) fraction表示百分数，调用如 xx:attr1="30%"-->
+    <declare-styleable name = "DiagramView">
+        <attr name = "titleName" format = "string|integer" />
+        <attr name = "titleSize" format = "string|integer" />
+        <attr name = "titleColor" format = "string|color" />
+        <attr name = "xTextName" format = "string|integer" />
+        <attr name = "xTextSize" format = "string|integer" />
+        <attr name = "xTextColor" format = "string|color" />
+        <attr name = "yTextName" format = "string|integer" />
+        <attr name = "yTextSize" format = "string|integer" />
+        <attr name = "yTextColor" format = "string|color" />
+    </declare-styleable>
+
+</resources>
